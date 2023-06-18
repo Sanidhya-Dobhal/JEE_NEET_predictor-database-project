@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image :url("home_bg.jpeg");
+    height:100vh;
+    background-size:cover; 
+    background-blend-mode: difference;
+}
+#parent
+{
+    width:90vw;
+    margin:auto;
+    background-color:rgba(1,1,1,0.32);
+    display: grid;
+    grid-row-gap:10px;
+    grid-column-gap:10px;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: space-around;
+    height:450px;
+}
+#subject_marks
+{
+    margin-top: 40px;
+    width:20vw;
+    height:50vh;
+    background-repeat:no-repeat;
+    background-size:contain;
+    left:0vw;
+    top:0vh;
+    font-size:22px;
+}
+#result
+{
+    position:relative;
+    margin-top: 40px;
+    width:20vw;
+    height:40vh;
+    background-repeat:no-repeat;
+    background-size:contain;
+    font-size: 22px;
+}
+#photo1
+{
+    position:relative;
+    width:20vw;
+    height:auto;
+    right:0vw;
+    bottom:0vh;
+    transition-duration:0.2s;
+    opacity:1;
+    animation-name:animati;
+    animation-duration:1s;
+}
+#photo2
+{
+    position:relative;
+    width:20vw;
+    height:auto;
+    right:0vw;
+    bottom:0vh;
+    transition-duration:0.2s;
+    animation-name:animati;
+    animation-duration:1s;
+}
+#photo1:hover
+{
+    width:22vw;
+    right:2vw;
+    bottom:2vh;
+}
+#photo2:hover
+{
+    width:22vw;
+    right:2vw;
+    bottom:2vh;
+}
+
+@keyframes animati
+{
+    from{
+        opacity:0;
+    }
+    to
+    { opacity:1;}
+}
+#Greet
+{
+    font-size:3vh;
+    animation-name:greetani;
+    animation-duration: 1s;
+}
+@keyframes greetani
+{
+    from{
+        font-size:0vh;
+    }
+    to{
+        font-size:3vh;
+    }
+}
+.test
+{
+    text-align:center;
+}
+@media screen and (max-width:850px)
+{
+    #parent{
+        grid-template-columns: auto;
+        height:890px;
+    }
+    #photo1
+    {
+        width:30vw;
+    }    
+    #subject_marks
+    {
+        width:30vw;
+    }  
+    #photo1:hover
+    {
+        width:33vw;
+        right:3vw;
+        bottom:3vh;
+    }
+    #photo2
+    {
+        width:30vw;
+    }    
+    #result
+    {
+        width:30vw;
+    }  
+    #photo2:hover
+    {
+        width:33vw;
+        right:3vw;
+        bottom:3vh;
+    }
+}
+@media screen and (max-width:415px)
+{
+    #parent{
+    height:660px;
+}
+#photo1
+{
+    width:160px;
+}    
+#subject_marks
+{
+    width:160px;
+    height:300px;
+}  
+#photo1:hover
+{
+    width:187px;
+    right:23px;
+    bottom:3vh;
+}
+#photo2
+{
+    width:160px;
+}    
+#result
+{
+    width:160px;
+}  
+#photo2:hover
+{
+    width:187px;
+    right:23px;
+    bottom:3vh;
+}
+}

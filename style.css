@@ -1,0 +1,60 @@
+body{
+    background-image: url('cover.png');
+    background-repeat:inherit;
+    background-size: cover;
+    height: 100vh;
+    z-index:-1;
+}
+#form_cont{
+    background-color: rgb(255, 255, 255,0.8);
+    position :relative; 
+    top:34vh;
+    width:23vw;
+    border:8px inset ;
+    border-radius: 20px;
+    text-align:center;
+    animation-name:reload;
+    animation-duration:1s;
+    animation-timing-function:ease-in-out;
+    opacity: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#form_cont2{
+    background-color: rgb(255, 255, 255,0.8);
+    position :relative; 
+    top:34vh;
+    width:23vw;
+    border:8px inset ;
+    border-radius: 20px;
+    text-align:center;
+    opacity: 100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+#sub
+{
+    width:30%; 
+    background-color:rgba(0,93,255,0.5);
+    height:35px;
+    font-weight:bold;
+    border-radius:30px;
+}
+input{
+    border-radius:30px;
+    width:80%;
+    height:3vh;
+}
+@keyframes reload
+{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+@media screen and (max-width:807px)
+{
+    #form_cont{
+        width:186px;
+    }#form_cont2{
+        width:186px;
+    }
+}

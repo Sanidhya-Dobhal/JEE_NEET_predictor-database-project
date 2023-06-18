@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel = "Stylesheet" href="sign_up.css">
+</head>
+<body>
+    <div id ="form_cont">
+        <h1 style="text-align:center;">Sign-up</h1>
+         <div style="height:0.5vh"> 
+        </div>
+              <form action = "signup.php" method="post">
+                    <input type ="text" placeholder="First Name" id="f_name" name ="f_name" style="display :inline" required>
+                    <input type ="text" placeholder="Middle Name" id = "m_name" name="m_name" style="display :inline">
+                    <input type ="text" placeholder="Last Name" id = "l_name" name="l_name"style="display :inline">
+                    <div style="height:15px;">
+                    
+                    </div>
+                    <input type ="email" placeholder="Email" id ="Mail" name="mail"style="width:200px;" required>
+                    <div style="height:15px;"> 
+
+                    </div>
+                    <input type ="text" placeholder="New Password" id ="Pass" name ="pass" style="width:200px;" required minlength = 5>
+                    <div style="height:15px;"> 
+
+                    </div>
+                    <label>Date of Birth</label>
+                    <input type ="date"name ="dob" required>     
+                    <div style="height:15px;"> 
+
+                    </div>
+                    <label style ="position: relative;right:44px;">Gender</label>
+                    <select name="gender"  style ="position: relative;right:9px;">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <div style="height:15px;"> 
+
+                    </div>
+                    <input type = "Text" id ="State"placeholder="State" name = "state" style ="width:200px;" required>
+                    <div style="height:15px;"> 
+
+                    </div>
+                    <div style="height:6px;">
+
+                    </div>
+                    <input type ="text" placeholder="Phone number" id ="Phone"name = "phone" style ="width:200px;" maxlength="10" minlength="10" required>
+                    <div style="height:15px;"> 
+
+                    </div>
+                    <label><b>Exam</b>:</label>
+                    <div style="height:15px;"> 
+
+                    </div>
+                    <select name = "exam" id="Exam">
+                        <option value="JEE">Joint Entrance Exam (JEE)</option>
+                        <option value="NEET">National Eligibility cum Entrance Test (NEET)</option>
+                    </select>
+                    <div style="height:25px;"> 
+
+                    </div>
+                    <input type ="submit" id="sub">
+              </form>
+         </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body
+{
+        background-image: url('cover.png');
+        background-repeat:inherit;
+        background-size: cover;
+        height: 100vh;
+        z-index:-1;
+}
+
+#form_cont{
+    top:24.5vh;
+    position :fixed;
+    left:34.5vw;
+    width:33vw;
+    background-color:rgba(255, 255, 255, 0.8);
+    border:8px inset;
+    border-radius: 20px;
+    text-align:center;
+    animation-name:reload;
+    animation-duration:1s;
+    animation-timing-function:ease-in-out;
+}
+#sub
+{
+    width:30%; 
+    background-color:rgba(0,93,255,0.5);
+    height:35px;
+    font-weight:bold;
+    border-radius:30px;
+}
+@keyframes reload
+{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+@media screen and (max-width:903px)
+{
+    #Exam{
+        width:30vw;
+    }
+}
+@media screen and (max-width:700px)
+{
+    #form_cont
+    {
+        width:230px;
+    }
+    #Exam{
+        width:208px;
+    }
+}
