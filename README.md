@@ -20,7 +20,7 @@ The prediction whether the user has qualified or not ,is displayed based on the 
 ### Garbage value handling :
 In this value the garbage value inputs have been considered and an appropriate output for them has been generated .
 ### Responsive design and visually pleasant :
-The website is designed to be responsive and accessible on various devices, including desktops, tablets, and mobile phones and also be visually pleasant in all the devices .
+The website is designed to be responsive and accessible on various devices, including desktops, tablets, and mobile phones and also be visually pleasant in all the devices (using CSS <b>animations</b> and <b>transitions</b>).
 
 ## Technologies Used
 The JEE/NEET Percentile Predictor Website is built using the following technologies:
