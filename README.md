@@ -22,6 +22,9 @@ In this value the garbage value inputs have been considered and an appropriate o
 ### Responsive design and visually pleasant :
 The website is designed to be responsive and accessible on various devices, including desktops, tablets, and mobile phones and also be visually pleasant in all the devices (using CSS <b>animations</b> and <b>transitions</b>).
 
+## Screenshots
+### Login page
+
 ## Technologies Used
 The JEE/NEET Percentile Predictor Website is built using the following technologies:
 
@@ -34,3 +37,4 @@ If you have any questions, suggestions, or feedback, please feel free to contact
 
 ### Email: sanidhyadobhal2002@gmail.com
 ### GitHub: Sanidhya-Dobhal
+
