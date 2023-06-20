@@ -25,7 +25,7 @@ The website is designed to be responsive and accessible on various devices, incl
 ## Screenshots
 ### Log-in page
 ![Login](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Log%20in%20page.png)
-### Sign up page
+### Sign-up page
 ![Registration](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Registration%20form.png)
 ![Registered](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/User%20Registration.png)
 ### Registration number
@@ -42,6 +42,21 @@ The website is designed to be responsive and accessible on various devices, incl
 ### Result page
 ![result](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Result%20page.png)
 #### For more screenshots go to the Screenshots folder.
+## Installation and Usage
+One way to use and run this proeject is to install XAMPP ,set it up .
+<br>
+Then go to http://localhost/phpmyadmin/ on browser , this is where you will maintain all your databases .
+<br>
+Create a database named "JEE/NEET" and create 3 tables Cand_reg ,JEE_marks, NEET_marks with the following attributes (columns)
+## Cand_reg attributes
+![Cand_reg](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Tables/Cand_reg.png)
+## JEE_marks
+![JEE_marks](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Tables/JEE_marks.png)
+## NEET_marks
+![NEET_marks](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Tables/NEET_marks.png)
+<p>Now download this repository and save it in the htdocs folder that is automatically downloaded with XAMPP </p>
+<p>After doing all this project should be ready to run , now open the repository in browser by using http://localhost/JEE_NEET_website/index.html </p>
+
 ## Technologies Used
 The JEE/NEET Percentile Predictor Website is built using the following technologies:
 
