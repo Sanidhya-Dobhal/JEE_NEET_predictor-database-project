@@ -23,8 +23,25 @@ In this value the garbage value inputs have been considered and an appropriate o
 The website is designed to be responsive and accessible on various devices, including desktops, tablets, and mobile phones and also be visually pleasant in all the devices (using CSS <b>animations</b> and <b>transitions</b>).
 
 ## Screenshots
-### Login page
-
+### Log-in page
+![Login](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Log%20in%20page.png)
+### Sign up page
+![Registration](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Registration%20form.png)
+![Registered](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/User%20Registration.png)
+### Registration number
+![Reg_num](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Successful%20registration.png)
+### Logging in
+![Log_in](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Logging%20in%20user.png)
+### Home page
+![Home_pages](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/successful_login_home_page.png)
+![Home_page](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Home%20page.png)
+### Marks form
+![marks](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Sub_marks.png)
+![marks_entry](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/marks%20entry.png)
+![marks_storage](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Successful%20marks%20stored.png)
+### Result page
+![result](https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Result%20page.png)
+#### For more screenshots go to the Screenshots folder.
 ## Technologies Used
 The JEE/NEET Percentile Predictor Website is built using the following technologies:
 
