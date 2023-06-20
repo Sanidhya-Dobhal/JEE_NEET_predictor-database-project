@@ -50,7 +50,11 @@
     }
     else
     {
+<<<<<<< HEAD
         echo "<p class = 'quali' style ='text-align:center;color:rgb(0,255,0);'><b>Congratulations!! You will likely qualified JEE</b></p>";
+=======
+        echo "<p class = 'quali' style ='text-align:center;color:rgb(0,255,0);'><b>Congratulations!! You will likely qualify JEE</b></p>";
+>>>>>>> origin/master
     }
     echo "<p class  ='percentile'>Your percentile is <b>".$percentile."</b></p>";
     $sql ="SELECT * from JEE_marks where reg_num ='$id';";
