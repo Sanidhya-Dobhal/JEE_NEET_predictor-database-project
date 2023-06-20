@@ -46,11 +46,11 @@
     $percentile = (1-($rank/$tot_cand))*100;
     if($percentile<90)
     {
-        echo "<p class = 'quali' style ='text-align:center;color:#ab1111;'><b>Sorry, you have not qualified JEE</b></p>";
+        echo "<p class = 'quali' style ='text-align:center;color:#ab1111;'><b>Sorry, you will not likely qualify JEE</b></p>";
     }
     else
     {
-        echo "<p class = 'quali' style ='text-align:center;color:rgb(0,255,0);'><b>Congratulations!! You have qualified JEE</b></p>";
+        echo "<p class = 'quali' style ='text-align:center;color:rgb(0,255,0);'><b>Congratulations!! You will likely qualified JEE</b></p>";
     }
     echo "<p class  ='percentile'>Your percentile is <b>".$percentile."</b></p>";
     $sql ="SELECT * from JEE_marks where reg_num ='$id';";
@@ -128,11 +128,11 @@ else{
     $percentile = (1-($rank/$tot_cand))*100;
     if($percentile<50)
     {
-        echo "<p class ='quali' style ='text-align:center;color:#ab1111;'><b>Sorry, you have not qualified NEET</b></p>";
+        echo "<p class ='quali' style ='text-align:center;color:#ab1111;'><b>Sorry, you will not likely qualify NEET</b></p>";
     }
     else
     {
-        echo "<p class ='quali' style ='text-align:center;color:rgb(0,255,0);'><b>Congratulations!! You have qualified NEET</b></p>";
+        echo "<p class ='quali' style ='text-align:center;color:rgb(0,255,0);'><b>Congratulations!! You will likely qualify NEET</b></p>";
     }
     echo "<p class  ='percentile'>Your percentile is <b>".$percentile."</b></p>";
     $sql ="SELECT * from NEET_marks where reg_num ='$id';";
