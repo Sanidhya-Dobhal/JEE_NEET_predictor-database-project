@@ -24,11 +24,14 @@ The website is designed to be responsive and accessible on various devices, incl
 
 ## Screenshots
 ### Login page
-<img src = "Screenshots/Log in page.png">
+<img src = "https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Log-in/Log-in%201.png">
 <br>
-<img src = "Screenshots/Logging in user.png">
+<img src = "https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Log-in/Log-in%202.png">
 <br>
-<img src = "Screenshots/Incorrect credentials.png">
+<img src = "https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Log-in/Log-in%203.png">
+<br>
+<img src = "https://github.com/Sanidhya-Dobhal/JEE_NEET_predictor-database-project/blob/master/Screenshots/Log-in/Log-in%204.png">
+
 
 ### Sign up page
 <img src = "Screenshots/Registration form.png">
