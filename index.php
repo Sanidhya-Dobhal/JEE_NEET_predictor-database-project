@@ -35,7 +35,13 @@
         <p> </p>
     </div>
         <input type ='password' id='pass'placeholder = 'Password' name='pass' required>
-        <div style='height:2vh ;text-align:start;'>
+        <div style ='height: 2vh;'>
+        </div>
+        <div style ='display: flex; align-items:center;'>
+        <input type = 'checkbox' id ='Show_pass'>
+        <p id='showpasstxt'>Show password</p>
+        </div>
+        <div style='height:1vh ;text-align:start;'>
             <p> </p>
         </div>
         <input type ='submit' id = 'sub'>
@@ -45,7 +51,8 @@
 <div>
     <a href ='signup.html' style = 'font-size:15px;color:blue; '>Click here for new registration</a>
 </div>
-    </div>";
+    </div>
+    <script src = 'show_login_pass.js'></script>";
     }
     ?>
     <!DOCTYPE html>

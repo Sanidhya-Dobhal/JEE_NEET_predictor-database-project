@@ -12,7 +12,7 @@ body{
     width:23vw;
     border:8px inset ;
     border-radius: 20px;
-    text-align:center;
+    /* text-align:center; */
     animation-name:reload;
     animation-duration:1s;
     animation-timing-function:ease-in-out;
@@ -41,9 +41,23 @@ body{
     border-radius:30px;
 }
 input{
+    display:block;
     border-radius:30px;
     width:80%;
     height:3vh;
+    margin-left :auto;
+    margin-right :auto;
+
+}
+#Show_pass{
+    width:20px;
+    height:20px;
+    margin-left:2vw;
+    margin-right:10px;
+}
+#showpasstxt
+{
+    font-size: 20px;
 }
 @keyframes reload
 {
@@ -54,7 +68,17 @@ input{
 {
     #form_cont{
         width:186px;
-    }#form_cont2{
+    }
+    #form_cont2{
         width:186px;
+    }
+    #showpasstxt{
+        font-size:15px;
+    }
+    #Show_pass{
+        width:20px;
+        height:20px;
+        margin-left:16px;
+        margin-right:6px;
     }
 }
